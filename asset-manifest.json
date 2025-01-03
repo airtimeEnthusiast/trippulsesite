@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/trippulsesite/static/css/main.075721d6.css",
-    "main.js": "/trippulsesite/static/js/main.583a178c.js",
+    "main.js": "/trippulsesite/static/js/main.717e3538.js",
     "static/js/488.28debc95.chunk.js": "/trippulsesite/static/js/488.28debc95.chunk.js",
     "static/media/screenshot2.png": "/trippulsesite/static/media/screenshot2.eb45b4302fb76874f61f.png",
     "static/media/screenshot1.png": "/trippulsesite/static/media/screenshot1.ed866d0183a6f3486ca5.png",
@@ -10,11 +10,11 @@
     "static/media/app-store-badge.png": "/trippulsesite/static/media/app-store-badge.7e519d3b7a5f365287ed.png",
     "index.html": "/trippulsesite/index.html",
     "main.075721d6.css.map": "/trippulsesite/static/css/main.075721d6.css.map",
-    "main.583a178c.js.map": "/trippulsesite/static/js/main.583a178c.js.map",
+    "main.717e3538.js.map": "/trippulsesite/static/js/main.717e3538.js.map",
     "488.28debc95.chunk.js.map": "/trippulsesite/static/js/488.28debc95.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.075721d6.css",
-    "static/js/main.583a178c.js"
+    "static/js/main.717e3538.js"
   ]
 }
