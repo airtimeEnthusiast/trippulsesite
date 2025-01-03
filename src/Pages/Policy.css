@@ -1,0 +1,19 @@
+/* Updated CSS for Privacy Policy Page */
+.Policy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .Policy h2, .Policy h3 {
+    color: red;
+  }
+  
+  .Policy p {
+    max-width: 800px;
+    margin: 10px 0;
+  }

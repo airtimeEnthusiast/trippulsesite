@@ -5,20 +5,58 @@ body {
   margin: 0;
   padding: 0;
   background-color: #222; /* Match the footer color */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .App {
-  text-align: center;
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
 .App-header {
-  background-color: #222;
-  padding: 20px;
-  border-bottom: 2px solid red;
-  display: flex;
-  justify-content: flex-start;
+  background-color: #424141;
+  padding: 5px;
+  justify-content: space-between;
   align-items: center;
+  border-bottom: 2px solid red;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.App-nav {
+  display: flex;
+  justify-content: flex-end; /* Aligns nav items to the right */
+  gap: 20px;                 /* Space between nav items */
+  font-weight: bold;         /* Bold text for the nav items */
+  padding-right: 20px;       /* Adds padding from the right side of the header */
+}
+
+.App-nav a {
+  text-decoration: none;     /* Removes underlining from the links */
+  color: red;                /* Red text for styling */
+  transition: color 0.3s;    /* Smooth transition effect for hover */
+}
+
+.App-nav a:hover {
+  color: darkred;            /* Darker red on hover */
+}
+
+.App-Border{
+  border-bottom: 2px solid red;
 }
 
 .header-content {
@@ -26,14 +64,26 @@ body {
   align-items: center;
 }
 
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
 .App-logo {
-  height: 80px;
-  margin-right: 20px;
+  height: 50px;
+  margin-right: 10px;
 }
 
 h1 {
   color: red;
-  font-size: 2.5em;
+  font-size: 1.5em;
   margin: 0;
 }
 
@@ -48,36 +98,30 @@ p {
   margin: 10px;
 }
 
-.screenshots {
-  margin-top: 20px;
-}
-
-.screenshot-container {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 10px;
-}
-
-.screenshot {
-  width: 150px;
-  border: 2px solid #fff;
-  border-radius: 10px;
-}
-
 .app-store-badge {
   width: 150px;
   margin-top: 20px;
 }
 
 footer {
-  margin-top: 20px;
+  margin-top: auto;
   padding: 10px 0;
-  background-color: #222;
+  background-color: #424141;
   color: #fff;
 }
 
-footer a {
-  color: red;
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.footer-link {
   text-decoration: none;
+  color: red;
+}
+
+.footer-link:hover {
+  color: darkred;
 }
