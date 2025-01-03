@@ -15,7 +15,7 @@ function App() {
               <h1>Trip Pulse</h1>
             </Link>
             <nav className="App-nav">
-              <a href="mailto:support@trippulse.com">Contact</a>
+              <a href="mailto:trippulsecontact@gmail.com">Contact</a>
             </nav>
           </div>
         </header>
@@ -28,7 +28,7 @@ function App() {
 
         <footer className="App-footer">
           <div className="footer-content">
-            <p>&copy; 2025 Trip Pulse. All rights reserved.</p>
+            <p>&copy; 2025 TripPulse. All rights reserved.</p>
             <Link to="/policy" className="footer-link">Private Policy</Link>
           </div>
         </footer>
