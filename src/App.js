@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Link, Navigate } from "react-router-dom";
 import "./App.css";
 import About from "./Pages/About";
 import Policy from "./Pages/Policy";
@@ -21,7 +21,9 @@ function App() {
         </header>
 
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<Navigate replace to="/about" />} />
+          <Route path="/trippulsesite" element={<Navigate replace to="/about" />} />
+          <Route path="/trippulsesite/" element={<Navigate replace to="/about" />} />
           <Route path="/about" element={<About />} />
           <Route path="/policy" element={<Policy />} />
         </Routes>
